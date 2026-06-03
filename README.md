@@ -76,5 +76,3 @@ Because this utility intercepts global hardware input to generate synthetic syst
 The app leverages a low-level CoreGraphics event tap (`CGEventTapCreate`). It listens for `kCGEventScrollWheel` and strips it from the event bus when `Option` is active. Simultaneously, it constructs synthetic `kCGEventGesture (Type 29)` payloads with the Apple Private SPIs for Zoom (`113`) and cleanly maps sequences to hardware HID Phases (`Began=1`, `Changed=2`, `Ended=4`).
 
 > **⚠️ Note on Apple Private APIs:** This application utilizes undocumented CoreGraphics SPIs to generate raw system trackpad events. While entirely legal for open-source use, its behavior may change in future macOS major revisions.
-
-# MagicMouseZoomBridge
