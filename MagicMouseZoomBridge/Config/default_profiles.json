@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "activationModifier": "option",
+  "sensitivity": 0.006,
+  "invertDirection": false,
+  "eraseModifiers": true,
+  "onlyMagicMouse": false,
+  "apps": {
+    "com.apple.Preview": {
+      "enabled": true,
+      "sensitivity": 0.005,
+      "eraseModifiers": true
+    },
+    "org.freecadweb.FreeCAD": {
+      "enabled": true,
+      "sensitivity": 0.008,
+      "eraseModifiers": true
+    },
+    "org.kicad.kicad": {
+      "enabled": true,
+      "sensitivity": 0.009,
+      "eraseModifiers": true
+    }
+  }
+}
